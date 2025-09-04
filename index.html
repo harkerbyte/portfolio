@@ -1,0 +1,210 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harkerbyte : donation page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f9f9fb;
+      color: #1c1c1c;
+      margin: 0;
+      padding: 0;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100dvh;
+      width:auto;
+    }
+    header {
+      text-align: center;
+      padding: 2rem 1rem 1rem;
+      background: #ffffff;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+      width: auto;
+    }
+    h1 {
+      font-size: 2rem;
+      margin: 0;
+      color: #2e2e2e;
+      text-decoration:underline;
+    }
+    p {
+      max-width: 550px;
+      line-height: 1.6;
+      margin: 1rem auto;
+      color: #444;
+    }
+    .reach-out {
+      display: grid;
+      gap: 1rem;
+      margin: 2rem 0;
+      width: 100%;
+      max-width: 400px;
+    }
+    .reach-out a {
+      background: #ff5e5b;
+      color: white;
+      text-decoration: none;
+      padding: 0.9rem 1.5rem;
+      border-radius: 10px;
+      text-align: center;
+      font-weight: 600;
+      transition: background 0.2s ease;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .reach-out a:hover {
+      background: #ff4240;
+    }
+    .crypto {
+      margin: 2rem auto;
+      padding: 1.5rem;
+      border-radius: 12px;
+      background: #fff;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      max-width: 550px;
+      width: auto;
+    }
+    .crypto h2 {
+      margin-top: 0;
+    }
+    .crypto p {
+      max-width: 100%;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+     }
+    .my-work {
+      margin: 2rem auto;
+      margin-bottom: 2px;
+      padding: 1.5rem;
+      border-radius: 12px;
+      background: #fff;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      max-width: 1000px;
+      width: auto;
+      max-height: 450px;
+      overflow-y: auto;
+    }
+    .work-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      border-bottom: 1px solid #e5e5e5;
+      padding: 1rem 0;
+    }
+    .work-item:last-child {
+      border-bottom: none;
+    }
+    .work-item img {
+      width: 80px;
+      height: 80px;
+      object-fit: fit;
+      border-radius: 8px;
+      background: #f0f0f0;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .work-details {
+      flex: 1;
+    }
+    .work-details h3 {
+      margin: 0;
+      font-size: 1.2rem;
+    }
+    .work-details p {
+      margin: 0.5rem 0;
+      font-size: 0.95rem;
+      color: #555;
+    }
+    .work-details a {
+      color: #ff5e5b;
+      text-decoration: none;
+      font-weight: 600;
+    }    
+    .socials{    
+      padding:1.5rem;
+      width:auto;
+      max-width:1000px;
+      border-radius:12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .socials article {
+      padding:1rem;
+      display:flex;
+      flex-direction:row;
+      justify-content:center;  
+    }
+    .socials a {
+    padding:5px;
+    }
+    .see-more{
+      margin:10px;
+      color: cyan;
+      text-decoration: underline;
+      font-weight: 600;
+    }
+    footer {
+      margin: 3rem 0 1rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  
+  <header>
+    <h1>Harkerbyte</h1>
+    <p><strong>Bit by bit, byte by byte...</strong></p>
+    <p>
+       Our continual input is directed toward making positive impacts and bridging digital gaps. At Harkerbyte, we engineer custom software — minimized, lightweight, and optimized to run seamlessly across the widest range of devices.
+
+As an open-source software company, it has been our honor to release efficient scripts, frameworks, and modules that empower productivity and innovation in everyday workflows.</p><br><p><strong>For every problem solved begins with a byte.</strong><br>No more excuses for why you haven’t gotten started.
+We’ve removed the weight, simplified the tools, and brought performance to your fingertips. Whether you’re coding, testing, or building, our lightweight frameworks are designed so you can start now, grow fast, and scale smart.
+
+Bit by bit, byte by byte — the future is engineered by those who take the first step.</p>
+      </section>  
+  <section class="my-work">
+    <h2>🚀 My Work</h2>
+    <div class="work-item">
+      <img src="shadecreed.jpg" alt="Shadecreed Image">
+      <div class="work-details">
+        <h3>Shadecreed</h3>
+        <p>A command-line penetration testing toolkit designed for web application assessment. It provides tools to inject custom headers, deploy and test XSS payloads, and scan for vulnerabilities.</p>
+        <a href="https://github.com/harkerbyte/shadecreed" target="_blank">🔗 View Repository</a>
+      </div>
+    </div>
+    <div class="work-item">
+      <img src="spyder.jpg" alt="Spyder Image">
+      <div class="work-details">
+        <h3>Spyder</h3>
+        <p>An Advanced Networking Tool for Testing and chat system over the network — Designed for Linux Systems</p>
+        <a href="https://github.com/harkerbyte/spyder" target="_blank">🔗 View Repository</a>
+      </div>     
+    </div>
+        
+  </section>
+ 
+    <section class="socials"><h3>Socials</h3>
+      <article>
+        <a href="https://whatsapp.com/channel/0029Vb5f98Z90x2p6S1rhT0S"><img alt="follow harkerbyte(whatsapp)" src="https://img.shields.io/badge/WhatsApp-25D366?style=plastic&logo=whatsapp&logoColor=white"></a>
+        <a href="https://facebook.com/harkerbyte"><img alt="follow harkerbyte(facebook)" src="https://img.shields.io/badge/Facebook-%231877F2.svg?style=plastic&logo=Facebook&logoColor=white"></a>
+        <a href="https://youtube.com/@harkerbyte"><img alt="subscribe to harkerbyte (YT)" src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=plastic&logo=YouTube&logoColor=white"></a>
+      </article>
+      <a class="see-more"href="https://github.com/harkerbyte?tab=repositories" target="_blank">🔗 See More Repositories</a>
+    </section>
+  <p><strong>
+      If you find them useful, consider supporting the movement — your contribution keeps the work alive 🚀
+  </strong></p>
+  </header>  <section class="reach-out">
+    <a href="mailto:adesolasherifdeen3@gmail.com" target="_blank">Reach out 📫</a>
+  </section>  <section class="crypto">
+    <h2>💻 Crypto Donations</h2>
+    <p><strong>BTC:</strong> bc1q9t0ms8k74tuvyq0nmavqxt5l2tzektvrkgq69n</p>
+    <p><strong>ETH:</strong> 0x04c02bb0Dcc87f27b4965200eB4486e7aD2157C8</p>
+    <p><strong>LTC :</strong> ltc1qc4j7x0nr9esdjjx0ru930h339g90h5fyl5y5w0</p>
+    <p><strong>SOL :</strong> GyEmCt5Z5LMaA5coaAZA4v43omYNrCQ6bhCuhhG43aMQ</p>
+    <p><strong>USDT (TRC20):</strong> TQfRP5NPUoFpWUEygtYL38VBzuRCJSzdS9</p>
+    <footer>
+    <p>Thank you for supporting the movement ❤️</p>
+  </footer>
+</body>
+</html>
